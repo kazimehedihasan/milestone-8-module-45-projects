@@ -44,6 +44,7 @@ const Header = () => {
           <div className="navbar-center">
             <Link to="/"> Home</Link>
             <Link to="/about"> about</Link>
+            <Link to="/posts"> Posts</Link>
             <Link to="/usears">usears</Link>
             <Link to="/contact"> Contact</Link>
           </div>
