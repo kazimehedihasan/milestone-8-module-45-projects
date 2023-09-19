@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import "./Header.css";
 const Header = () => {
   return (
@@ -43,10 +43,10 @@ const Header = () => {
           {/* nested route */}
           <div className="navbar-center">
             <Link to="/"> Home</Link>
-            <Link to="/about"> about</Link>
-            <Link to="/posts"> Posts</Link>
-            <Link to="/usears">usears</Link>
-            <Link to="/contact"> Contact</Link>
+          <NavLink to="/about"> about</NavLink>
+          <NavLink to="/posts"> Posts</NavLink>
+         <NavLink to="/usears">usears</NavLink>
+            <NavLink to="/contact"> Contact Us</NavLink>
           </div>
 
           <div className="navbar-end">
